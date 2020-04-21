@@ -1,0 +1,144 @@
+body{
+    background-image: url("imagens/fundo4.jpeg");
+}
+
+a{
+    text-decoration: none;
+    color: darkred;
+}
+
+#esquerda p{
+    text-align: justify;
+}
+
+#carrossel{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+#carrossel a{
+    text-shadow: 2px 2px 7px #111111;
+}
+
+img.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 0px;
+    display: block; 
+}
+
+.nav{
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    font-size: 30px;
+}
+
+
+.card-img{
+    height:100%;
+    min-height: 250px;
+    background-image: url("imagens/conhaYtoro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#cards_vericais p{
+    margin-bottom: 0px;
+}
+
+#cards_verticais h4{
+    margin-top: 30px;
+}
+
+#vinho_mes{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.garrafas{
+    margin-bottom: 20px;
+    -moz-box-shadow: 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px #777777;
+    box-shadow:5px 5px 5px #777777;
+    background-color: #dbd4d4
+}
+
+#titulo_3cards{
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#cards3 div{
+    margin-bottom: 20px;
+}
+
+#cards3 p{
+    vertical-align: text-top;
+    margin-bottom: 0px;
+}
+
+#podcast{
+    border: solid dimgray 1px;
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    width: auto;
+    text-align: center;
+}
+
+#mini_fotos img{
+    padding: 10px;
+    border: solid dimgray 1px;
+}
+
+#titulo_video{
+    margin-top: 30px;
+}
+
+iframe{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.footer{
+    background-image: url("imagens/fundoRolhas.jpeg");
+    height: auto;
+    color:white;
+    text-shadow: 2px 2px 7px #111111;
+    background-repeat: repeat;
+    
+}
+
+/* media query: */
+
+@media screen and (max-width: 400px){
+    img.logo{
+        margin-left: auto;
+        margin: auto;
+    }
+
+    img.logo ~ p{
+        text-align: center;
+    }
+
+    #esquerda #direita{
+        font-size: 120%;
+    }
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    footer{
+        background-image:none;
+    
+} 
